@@ -12,11 +12,12 @@ class Doctor
 
   def add_appointment(appointment)
     @appointments << appointment
+    appointment.doctor = self
   end
 
   def patients
     self.appointments.collect do |patient|
-      patient.appointments
+      patient.appointment
     end
   end
 
