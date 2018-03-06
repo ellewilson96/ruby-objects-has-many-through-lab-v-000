@@ -7,5 +7,8 @@ class Appointment
     date.add_appointment(self)
     end
 
+    def appointment 
+      @appointment
+    end
 
 end
