@@ -7,9 +7,5 @@ class Appointment
     date.add_appointment(self)
     end
 
-def appointment
-  appointment.doctor = self
-  appointment.patient = self
-end
 
 end
