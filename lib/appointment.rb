@@ -7,7 +7,7 @@ class Appointment
     end
 
     def date
-      @date
+      @date = date
     end
 
 end
