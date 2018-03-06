@@ -8,8 +8,8 @@ class Appointment
     end
 
 def appointment
-  doctor.appointment = self
-  patient.appointment = self
+  appointment.doctor = self
+  appointment.patient = self
 end
 
 end
